@@ -2,7 +2,7 @@ const express=require("express");
 const app=express();
 const ejs=require("ejs");
 
-const port=process.env.port || 3000;
+const port=process.env.PORT || 3000;
 
 // database modle import
 const connectDB=require("./config/db");
